@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr class="my-4">
+
+        <h3>About You</h3>
+
+        <form>
+            <div class="form-group">
+                <label for "nameInput">Name (required)</label>
+                <input type="text" class="form-control" id="nameInput" required>
+            </div>
+            <div class="form-group">
+                <label for "photoURL">Link to a Photo (required)</label>
+                <input type="url" class="form-control" id="photoURL" required>
+            </div>
+
+            <hr class="my-4">
+
+            <h5>Question 1</h5>
+            <div class="form-group">
+                <label for "question1">I have a vivid imagination.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 2</h5>
+            <div class="form-group">
+                <label for "question1">I enjoy large parites and gatherings.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 3</h5>
+            <div class="form-group">
+                <label for "question1">I am a very organized person.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 4</h5>
+            <div class="form-group">
+                <label for "question1">I enjoy reading challenging books and articles.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 5</h5>
+            <div class="form-group">
+                <label for "question1">I go out of my way to seek adventure.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 6</h5>
+            <div class="form-group">
+                <label for "question1">I only really feel confortable with friends.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 7</h5>
+            <div class="form-group">
+                <label for "question1">I am not bothered by difficult social situations.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 8</h5>
+            <div class="form-group">
+                <label for "question1">I like to be in charge of other people.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 9</h5>
+            <div class="form-group">
+                <label for "question1">I approach life in an easy-going manner.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <h5>Question 10</h5>
+            <div class="form-group">
+                <label for "question1">I tend to take on other people's problems.</label>
+                <select class="form-control" id="question1" required>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit"> Submit</button>
+        </form>
+
+        <footer>
+            <hr class="my-4">
+            <p>
+                <a href="#">API Friends List</a>
+                |
+                <a href="#">Github Repo</a>
+            </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
