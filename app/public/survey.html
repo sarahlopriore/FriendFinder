@@ -155,10 +155,13 @@
             <button type="submit" class="btn btn-primary submit"> Submit</button>
         </form>
 
-        
+        <br>
         <div id="match">
-        <p id="matchName"></p>
-        <img id="matchImg" src="" alt="" />
+            <h3>Your Match is:</h3>
+            <br>
+            <p id="matchName"></p>
+            <br>
+            <img id="matchImg" src="" alt="" />
         </div>
 
         <footer>
@@ -166,7 +169,7 @@
             <p>
                 <a href="api/friends">API Friends List</a>
                 |
-                <a href="#">Github Repo</a>
+                <a href="https://github.com/sarahlopriore/FriendFinder">Github Repo</a>
             </p>
         </footer>
     </div>
@@ -207,7 +210,7 @@
         $.post("/api/friends", newFriend)
             .then(function (data) {
                 $("#match").show();
-                $("#matchName").text("Name: " + data.name);
+                $("#matchName").text(data.name);
                 $("#matchImg").attr("src", data.photo);
     })
 })
