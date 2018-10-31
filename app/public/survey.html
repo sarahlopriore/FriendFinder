@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 <body>
@@ -35,130 +35,136 @@
             <h5>Question 1</h5>
             <div class="form-group">
                 <label for "question1">I have a vivid imagination.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <select type="number" class="form-control" id="question1" required>
+                    <option type="number" value="1">1</option>
+                    <option type="number" value="2">2</option>
+                    <option type="number" value="3">3</option>
+                    <option type="number" value="4">4</option>
+                    <option type="number" value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 2</h5>
             <div class="form-group">
-                <label for "question1">I enjoy large parites and gatherings.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question2">I enjoy large parites and gatherings.</label>
+                <select type="number" class="form-control" id="question2" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 3</h5>
             <div class="form-group">
-                <label for "question1">I am a very organized person.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question3">I am a very organized person.</label>
+                <select type="number" class="form-control" id="question3" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 4</h5>
             <div class="form-group">
-                <label for "question1">I enjoy reading challenging books and articles.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question4">I enjoy reading challenging books and articles.</label>
+                <select type="number" class="form-control" id="question4" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 5</h5>
             <div class="form-group">
-                <label for "question1">I go out of my way to seek adventure.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question5">I go out of my way to seek adventure.</label>
+                <select type="number" class="form-control" id="question5" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 6</h5>
             <div class="form-group">
-                <label for "question1">I only really feel confortable with friends.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question6">I only really feel confortable with friends.</label>
+                <select type="number" class="form-control" id="question6" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 7</h5>
             <div class="form-group">
-                <label for "question1">I am not bothered by difficult social situations.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question7">I am not bothered by difficult social situations.</label>
+                <select type="number" class="form-control" id="question7" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 8</h5>
             <div class="form-group">
-                <label for "question1">I like to be in charge of other people.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question8">I like to be in charge of other people.</label>
+                <select type="number" class="form-control" id="question8" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 9</h5>
             <div class="form-group">
-                <label for "question1">I approach life in an easy-going manner.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question9">I approach life in an easy-going manner.</label>
+                <select type="number" class="form-control" id="question9" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <h5>Question 10</h5>
             <div class="form-group">
-                <label for "question1">I tend to take on other people's problems.</label>
-                <select class="form-control" id="question1" required>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                <label for "question10">I tend to take on other people's problems.</label>
+                <select type="number" class="custom-select" id="question10" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <button type="submit" class="btn btn-primary submit"> Submit</button>
         </form>
 
+        
+        <div id="match">
+        <p id="matchName"></p>
+        <img id="matchImg" src="" alt="" />
+        </div>
+
         <footer>
             <hr class="my-4">
             <p>
-                <a href="#">API Friends List</a>
+                <a href="api/friends">API Friends List</a>
                 |
                 <a href="#">Github Repo</a>
             </p>
@@ -169,3 +175,40 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+    $("#match").hide();
+
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+
+
+
+        var newFriend = {
+            name: $("#nameInput").val().trim(),
+            photo: $("#photoURL").val().trim(),
+            scores: [$("#question1").val(),
+                $("#question2").val(),
+                $("#question3").val(),
+                $("#question4").val(),
+                $("#question5").val(),
+                $("#question6").val(),
+                $("#question7").val(),
+                $("#question8").val(),
+                $("#question9").val(),
+                $("#question10").val()
+            ]
+        };
+
+
+        console.log(newFriend);
+
+        $.post("/api/friends", newFriend)
+            .then(function (data) {
+                $("#match").show();
+                $("#matchName").text("Name: " + data.name);
+                $("#matchImg").attr("src", data.photo);
+    })
+})
+</script>
